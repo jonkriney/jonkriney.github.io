@@ -11,11 +11,11 @@ body {
 }
 
 body {
-  font-family: 'Karla', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Karla', 'Eater', cursive, 'Helvetica', 'Arial', 'sans-serif';
 }
 
 a {
-  color: #fdcc52;
+  color: #e27c00;
   -webkit-transition: all .35s;
   transition: all .35s;
 }
@@ -32,7 +32,7 @@ hr {
 }
 
 hr.light {
-  border-color: white;
+  border-color: black;
 }
 
 h1,
@@ -41,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Karla', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Karla', 'Eater', cursive, 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -62,17 +62,17 @@ section h2 {
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
-  background-color: white;
+  background-color: black;
   -webkit-transition: all .35s;
   transition: all .35s;
-  font-family: 'Karla', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Karla', 'Eater', cursive, 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
-  font-family: 'Karla', 'Helvetica', 'Arial', 'sans-serif';
+  color: #e27c00;
+  font-family: 'Karla', 'Eater', cursive, 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -84,18 +84,18 @@ section h2 {
 #mainNav .navbar-toggler {
   font-size: 12px;
   padding: 8px 10px;
-  color: #222222;
+  color: #e27c00;
 }
 
 #mainNav .navbar-nav > li > a {
   font-size: 11px;
-  font-family: 'Karla', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Karla', 'Eater', cursive, 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
+  color: #e27c00 !important;
   background-color: transparent;
 }
 
@@ -110,7 +110,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #e27c00;
 }
 
 @media (min-width: 992px) {
@@ -119,10 +119,10 @@ section h2 {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: fade(white, 70%);
+    color: fade black, 70%);
   }
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-    color: white;
+    color: black;
   }
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
@@ -130,17 +130,17 @@ section h2 {
   }
   #mainNav .navbar-nav > li > a:hover,
   #mainNav .navbar-nav > li > a:focus:hover {
-    color: white;
+    color: black;
   }
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
-    background-color: white;
+    background-color: black;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #fdcc52;
+    color: #e27c00;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -148,7 +148,7 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #e27c00;
   }
 }
 
@@ -157,10 +157,10 @@ header.masthead {
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  color: #e27c00;
+  background: url("../img/spookybg.jpg"), #7b4397;
+  background: url("../img/spookybg.jpg"), -webkit-gradient(linear, right top, left top, from(#000000), to(#dc2430));
+  background: url("../img/spookybg.jpg"), linear-gradient(to left, #000000, #dc2430);
 }
 
 header.masthead .header-content {
@@ -170,7 +170,8 @@ header.masthead .header-content {
 }
 
 header.masthead .header-content h1 {
-  font-size: 30px;
+  font-size: 30px
+  color: #e27c00;
 }
 
 header.masthead .device-container {
@@ -192,10 +193,11 @@ header.masthead .device-container .screen img {
   }
   header.masthead .header-content {
     margin-bottom: 0;
-    text-align: left;
+    text-align: center;
   }
   header.masthead .header-content h1 {
     font-size: 50px;
+
   }
   header.masthead .device-container {
     max-width: 325px;
@@ -280,8 +282,8 @@ section.features .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
-  background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background: -webkit-gradient(linear, right top, left top, from(#f77802), to(#5f1563));
+  background: linear-gradient(to left, #440066, #000000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -289,7 +291,7 @@ section.features .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/BARAN-On-Distributed-Communications-Networks1-1962.jpg");
+  background-image: url("../img/Pumpkin.png");
   background-position: center;
   background-size: cover;
 }
@@ -304,7 +306,7 @@ section.cta .cta-content h2 {
   max-width: 450px;
   margin-top: 0;
   margin-bottom: 25px;
-  color: white;
+  color: black;
 }
 
 @media (min-width: 768px) {
@@ -345,7 +347,7 @@ section.contact ul.list-social li a {
   display: block;
   width: 80px;
   height: 80px;
-  color: white;
+  color: black;
   border-radius: 100%;
 }
 
@@ -399,13 +401,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fdcc52), to(#fdc539));
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #e27c00;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e27c00), to(#fdc539));
+  background: linear-gradient(#e27c00, #fdc539);
 }
 
 .text-primary {
-  color: #fdcc52;
+  color: #e27c00;
 }
 
 .no-gutter > [class*='col-'] {
@@ -414,20 +416,20 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .btn-outline {
-  color: white;
+  color: black;
   border: 1px solid;
-  border-color: white;
+  border-color: black;
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-  color: white;
-  border-color: #fdcc52;
-  background-color: #fdcc52;
+  color: black;
+  border-color: #e27c00;
+  background-color: #e27c00;
 }
 
 .btn {
   border-radius: 300px;
-  font-family: 'Karla', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Karla', 'Eater', cursive, 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
